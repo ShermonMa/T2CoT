@@ -134,7 +134,7 @@ def train():
         eval_accumulation_steps=8,          
         dataloader_pin_memory=False,         
         gradient_accumulation_steps=8,
-        learning_rate=2e-4,
+        learning_rate=5e-4,
         num_train_epochs=1.5,         
         warmup_steps=100,
         logging_steps=10,
