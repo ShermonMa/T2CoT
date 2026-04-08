@@ -182,7 +182,6 @@ def train():
         optim="paged_adamw_32bit",
         report_to=None,                       
         remove_unused_columns=False,
-        seed=42,
         fp16_full_eval=True,                  
         dataloader_prefetch_factor=1,      
         torch_compile=False,                  

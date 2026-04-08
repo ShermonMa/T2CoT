@@ -155,7 +155,6 @@ def train():
         optim="paged_adamw_32bit",
         report_to="tensorboard",
         remove_unused_columns=False,
-        seed=42,
     )
 
     trainer = Trainer(
